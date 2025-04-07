@@ -93,7 +93,7 @@ function RatingCard() {
 
   return (
     <div
-      className="w-[350px] sm:w-[90%] h-[350px] bg-[var(--Dark-Blue)]  rounded-4xl p-[1.8rem]"
+      className="lg:w-[350px] md:w-[350px] w-[90%] h-[350px] bg-[var(--Dark-Blue)]  rounded-4xl p-[1.8rem]"
       // style="padding: 10px"
     >
       {!isSubmited ? (
